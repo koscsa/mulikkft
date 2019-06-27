@@ -1,0 +1,187 @@
+body{
+	background-color: #f6f4ee;
+}
+.hatter{
+	background-color: rgba(255,255,255,1);
+	width: 80%;
+	position: relative;
+	margin: auto auto;
+	overflow: auto;
+	border-radius: 20px;
+}
+h1{
+	color: #000;
+	text-anchor: start;
+	display: inline;
+	margin-left: 30px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 128, 255);
+    float: right;
+    border-radius: 20px;
+
+}
+li{
+    float: right;
+
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul a:hover{
+	background-color: rgb(0, 128, 210);
+}
+div.hatter{
+	background-color: #f6f4ee;
+}
+div img{
+    opacity: 1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: auto;
+    margin-top: auto;
+    display: block;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1;
+    background-color: #f6f4ee;
+    grid-gap: 0px;
+    margin: auto auto;
+    overflow: auto;
+    width: 100%;
+  }
+.grid-item{
+    border: 5px;
+    background-color: #f6f4ee;
+    color: #000;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    border: 1px solid;
+}
+.item1{
+    grid-column-start: 1;
+}
+.item2{
+    grid-column-start: 2;
+}
+.item3{
+    grid-column-start: 3;
+}
+.item4{
+    grid-column-start: 4;
+}
+.item5{
+    grid-column-start: 5;
+}
+#item1:hover{
+    background-image:url(hatter_kicsi.jpg);
+    color: transparent;
+}
+#item2:hover{
+    background-image:url(festes_kicsi.png);
+    color: transparent;
+}
+#item3:hover{
+    background-image:url(hoszig.jpg);
+    color: transparent;
+}
+#item4:hover{
+    background-image:url(image4.png);
+    color: transparent;
+}
+#item5:hover{
+    background-image:url(festes_kicsi.png);
+    color: transparent;
+}
+div.form-container{
+	    background-color: #f6f4ee;
+	    width: 70%;
+	    margin: auto auto;
+	    font-size: 20px;
+	    position: relative;
+        height: 800px;
+}
+.tabla{
+    background-color: rgba(246, 244, 238, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    border: 2px solid;
+    padding-top: 30px;
+}
+div.arajanlatmenu{
+    background-image: url(images/hatter2.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 80px;
+    display: table;
+    width: 60%;
+    height: 800px;
+    opacity: 1;
+    }
+span.error{
+    color: red;
+    font-style: italic;
+}
+.ikon{
+    width: 25px;
+    height: 25px;
+}
+div#info{
+    background-color: rgba(246, 244, 238, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    border: 2px solid;
+    padding-top: 30px;
+    font-size: 28px;
+    padding: auto auto auto auto
+}
+div.infodiv{
+    background-image: url(hatter2.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    padding-top: 80px;
+    display: block;
+    width: 70%;
+    height: 800px;
+    opacity: 0.6;
+    }
+a{
+   text-decoration: none;
+   color: black;
+}
+div#rendeles{
+    width: 80%;
+    background-color: rgba(246, 244, 238, 0.75);
+    border: 2px solid;
+    margin: 110px auto auto auto;
+
+}
